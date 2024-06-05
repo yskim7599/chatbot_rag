@@ -7,7 +7,7 @@ import ast
 
 import numpy as np
 from numpy import dot
-from numpy.linalg import norm
+from numpy.linalg import norm 
 
 from streamlit_chat import message
 
