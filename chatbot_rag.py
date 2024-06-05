@@ -11,7 +11,7 @@ from numpy.linalg import norm
 
 from streamlit_chat import message
 
-client = openai.OpenAI(api_key = "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")
+client = openai.OpenAI(api_key = "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")
 
 def get_embedding(text):
     response = client.embeddings.create(
